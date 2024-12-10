@@ -18,6 +18,10 @@ The project involves:
     
 * Automating infrastructure management
     
+## Project Diagram : 
+
+![Project-diagram](images/Project-design.gif)
+
 
 ---
 
