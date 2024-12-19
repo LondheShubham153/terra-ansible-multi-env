@@ -1,0 +1,15 @@
+---
+  - name: Install nginx 
+    apt: 
+      name: nginx
+      state: latest
+
+  - name: Add html file
+    copy:
+      src: index.html
+      dest: /var/www/html
+
+  - name: Enable nginx
+    service :
+      name: nginx
+      enabled: yes

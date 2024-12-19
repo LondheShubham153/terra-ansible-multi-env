@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Index Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+            animation: gradientBG 10s infinite alternate;
+            color: white;
+            text-align: center;
+        }
+
+        @keyframes gradientBG {
+            0% { background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb); }
+            50% { background: linear-gradient(135deg, #a1c4fd, #c2e9fb, #89f7fe); }
+            100% { background: linear-gradient(135deg, #ffecd2, #fcb69f, #ff9a9e); }
+        }
+
+        header {
+            padding: 50px 20px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #6a11cb;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #2575fc, #6a11cb);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to NGINX</header>
+    <div class="container">
+        <p>
+            Congratulations on creating infrastructure using Terraform and deploying NGINX using Ansible.
+        </p>
+        <a href="#" class="btn">Explore More</a>
+    </div>
+    <footer>
+        &copy; 2024 Colorful Designs. All Rights Reserved.
+    </footer>
+</body>
+</html>
